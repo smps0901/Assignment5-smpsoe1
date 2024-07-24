@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #b2ebf2); 
+    color: #333;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #00796b; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+    margin-top: 1.5rem;
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(odd) {
+    background-color: #e0f7fa; 
+}
+
+table tr:nth-child(even) {
+    background-color: #ffffff; 
+}
+
+.navbar-light {
+    background: linear-gradient(to right, #ffffff, #e0f7fa); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif; 
+    color: #000000; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif; 
+    color: #000000;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #00796b; 
+}
+
+.btn-primary {
+    background-color: #00796b; 
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: cursive; 
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #004d40, #00796b); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
+}
+
+a {
+    color: #00796b; 
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #004d40; 
+}
+
+legend {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 35px;
+    font-family: cursive; 
+    color: #00796b; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+.nav-item.active {
+    background-color: #00796b; 
+    color: #ffffff; 
+}
+
+.form-control {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #00796b; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    color: #333;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    color: #333;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+footer a {
+    color: #00796b;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #004d40;
+}
+
+table tr:nth-child(odd) td {
+    background: linear-gradient(to right, #e0f7fa, #b2ebf2); 
+}
